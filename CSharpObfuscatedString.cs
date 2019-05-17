@@ -110,5 +110,5 @@ public static class CSharpObfuscatedString
     public static string underscore(this string str) { return str + "_"; }
 
     // MARK: - Aliases -
-    public static string dot(this string str) { return point(""); }
+    public static string dot(this string str) { return point(str); }
 }
